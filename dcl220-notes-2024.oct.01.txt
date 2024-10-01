@@ -1,0 +1,33 @@
+1. Imperative Programming
+   Procedural Programming,
+   OOP
+2. Declarative Programming
+   OOP
+   Functional Programming
+   
+Java: OOP since its inception, 
+      Functional Programming since java 8
+      AOP since java 6
+      Descriptive Programming since java 5
+      Reactive Programming since java 9
+      Modular Programming since java 9
+
+OOP
+Modeling -> Class -> Members
+                     i. attribute/state/data/property -> static
+                    ii. method/behaviour/function/message -> dynamic
+            Class -- create --> Object
+            I. encapsulation -> Class
+               information hiding
+            II. inheritance -> reusability
+            III. polymorphism -> agility
+ 			
+Domain-Driven Design
+Event Storming
+...					
+
+java interface:
+===============
+1. Java SE 6: AOP: Proxy-based implementation
+2. Java SE 9: Modularity 
+3. Java SE 8: Functional Programming
