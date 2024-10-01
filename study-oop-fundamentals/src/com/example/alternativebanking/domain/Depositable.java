@@ -1,5 +1,5 @@
 package com.example.alternativebanking.domain;
 
-public abstract interface Depositable {
+sealed public abstract interface Depositable permits DebitAccount, SavingsAccount {
 	public abstract double deposit(double amount);
 }

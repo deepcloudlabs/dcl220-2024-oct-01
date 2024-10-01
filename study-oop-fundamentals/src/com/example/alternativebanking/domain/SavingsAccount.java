@@ -2,7 +2,7 @@ package com.example.alternativebanking.domain;
 
 import com.example.banking.domain.AccountStatus;
 
-public class SavingsAccount implements Account, Depositable {
+public final class SavingsAccount implements Account, Depositable {
 	private final String iban;
 	protected double balance;
 	protected AccountStatus status;

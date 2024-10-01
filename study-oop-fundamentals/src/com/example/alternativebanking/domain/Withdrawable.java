@@ -1,5 +1,5 @@
 package com.example.alternativebanking.domain;
 
-public abstract interface Withdrawable {
+sealed public abstract interface Withdrawable permits DebitAccount {
 	public abstract double withdraw(double amount);
 }
