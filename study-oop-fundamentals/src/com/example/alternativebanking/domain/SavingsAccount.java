@@ -2,7 +2,7 @@ package com.example.alternativebanking.domain;
 
 import com.example.banking.domain.AccountStatus;
 
-public class SavingsAccount implements Account {
+public class SavingsAccount implements Account, Depositable {
 	private final String iban;
 	protected double balance;
 	protected AccountStatus status;
@@ -35,6 +35,17 @@ public class SavingsAccount implements Account {
 	@Override
 	public void setStatus(AccountStatus status) {
 		this.status = status;
+	}
+
+	@Override
+	public double deposit(double amount) {
+		System.err.println("SavingsAccount::deposit");
+		if (status != AccountStatus.ACTIVE)
+			return this.balance;
+		if (amount <= 0)
+			return this.balance;
+		this.balance += amount;
+		return this.balance;
 	}
 
 }

@@ -35,6 +35,7 @@ public class DebitAccount implements Account, Depositable, Withdrawable {
 
 	@Override
 	public double deposit(double amount) {
+		System.err.println("DebitAccount::deposit");
 		if (status != AccountStatus.ACTIVE)
 			return this.balance;
 		if (amount <= 0)
