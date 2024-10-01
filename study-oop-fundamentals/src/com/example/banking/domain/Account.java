@@ -1,6 +1,6 @@
 package com.example.banking.domain;
 
-public abstract class Account {
+sealed public abstract class Account permits DebitAccount, SavingsAccount, CheckingAccount{
 	private final String iban;
 	protected double balance;
 	protected AccountStatus status;

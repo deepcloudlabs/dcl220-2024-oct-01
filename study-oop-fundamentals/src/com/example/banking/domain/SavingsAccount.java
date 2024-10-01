@@ -1,6 +1,6 @@
 package com.example.banking.domain;
 
-public class SavingsAccount extends Account {
+final public class SavingsAccount extends Account {
 
 	public SavingsAccount(String iban) {
 		super(iban);

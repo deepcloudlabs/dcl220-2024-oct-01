@@ -1,6 +1,6 @@
 package com.example.banking.domain;
 
-public class CheckingAccount extends Account {
+non-sealed public class CheckingAccount extends Account {
 	private double overdraftAmount;
 
 	public CheckingAccount(String iban) {

@@ -1,7 +1,7 @@
 package com.example.banking.domain;
 
-public class DebitAccount extends Account {
-	
+non-sealed public class DebitAccount extends Account {
+
 	public DebitAccount(String iban) {
 		super(iban);
 	}
