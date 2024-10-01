@@ -2,6 +2,7 @@ package com.example.exercises;
 
 public class Exercise01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		A ref = new B();
 		if (ref instanceof B b) {
