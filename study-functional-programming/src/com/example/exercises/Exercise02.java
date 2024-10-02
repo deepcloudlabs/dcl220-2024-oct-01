@@ -44,4 +44,5 @@ public class Exercise02 {
 
 interface AAA {}
 
+@SuppressWarnings("serial")
 class B implements Serializable {}
