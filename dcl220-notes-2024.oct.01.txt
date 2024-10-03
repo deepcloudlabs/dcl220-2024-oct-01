@@ -31,3 +31,10 @@ java interface:
 1. Java SE 6: AOP: Proxy-based implementation
 2. Java SE 9: Modularity 
 3. Java SE 8: Functional Programming
+
+GoF Patterns
+Interface Patterns: Adapter, Facade, Composite, Bridge
+Responsibility Patterns: Singleton, Observer, Mediator, Proxy, Chain of Responsibility, Flyweight
+Construction Patterns: Builder, Factory Method, Abstract Factory, Prototype, Memento
+Operation Patterns: Template Method, State, Strategy, Command, Interpreter
+Extension Patterns: Decorator, Iterator, Visitor
