@@ -10,7 +10,6 @@ import com.example.handler.GenericHandler;
  *
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
-@SuppressWarnings("deprecation")
 public class UseCityHandler {
 	public static void main(String[] args) {
 

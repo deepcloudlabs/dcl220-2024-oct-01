@@ -10,7 +10,6 @@ import com.example.handler.SimpleMovieHandler;
  *
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
-@SuppressWarnings("deprecation")
 public class UseSimpleMovieHandler {
 	public static void main(String[] args) throws SAXException {
 		try {

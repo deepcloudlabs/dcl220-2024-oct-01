@@ -10,7 +10,6 @@ import com.example.handler.MovieHandler;
  *
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
-@SuppressWarnings("deprecation")
 public class UseMovieHandlerList {
    public static void main(String[] args) {
 
